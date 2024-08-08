@@ -7,12 +7,60 @@
 <meta property="title" content="Boost Your Website's Speed: PageSpeed Insights Tips">
 <meta name="description" content="Perfect 100% PageSpeed Score Achieved! 
 optimization result lightning-fast load times br referencing PageSpeed Insights and DevTools Lighthouse proven practices.">
-
+<!-- Structured data 1 of 2 -->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Title of a News Article",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2024-01-05T08:00:00+08:00",
+      "dateModified": "2024-02-05T09:20:00+08:00",
+      "author": [{
+          "@type": "Person",
+          "name": "Jane Doe",
+          "url": "https://example.com/profile/janedoe123"
+        },{
+          "@type": "Person",
+          "name": "John Doe",
+          "url": "https://example.com/profile/johndoe123"
+      }]
+    }
+    </script>
 </head>
-<body>
-<h1>meta T&D</h1>
-  <a href nofollow>nofollow</a>
-  <a href sponsored>If you were paid in some way for the link, qualify these links with <code>sponsored</code></a>
-  <a href ugc>If users can insert links on your site (for example, you have a forum section or Q&A site), add  <code>ugc</code></a>
+<body><div itemscope itemtype="https://schema.org/NewsArticle">
+      <div itemprop="headline">Title of News Article</div>
+      <meta itemprop="image" content="https://example.com/photos/1x1/photo.jpg" />
+      <meta itemprop="image" content="https://example.com/photos/4x3/photo.jpg" />
+      <img itemprop="image" src="https://example.com/photos/16x9/photo.jpg" />
+      <div>
+        <span itemprop="datePublished" content="2024-01-05T08:00:00+08:00">
+          January 5, 2024 at 8:00am
+        </span>
+        (last modified
+        <span itemprop="dateModified" content="2024-02-05T09:20:00+08:00">
+          February 5, 2024 at 9:20am
+        </span>
+        )
+      </div>
+      <div>
+        by
+        <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <a itemprop="url" href="https://example.com/profile/janedoe123">
+            <span itemprop="name">Jane Doe</span>
+          </a>
+        </span>
+        and
+        <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <a itemprop="url" href="https://example.com/profile/johndoe123">
+            <span itemprop="name">John Doe</span>
+          </a>
+        </span>
+      </div>
+    </div>
 </body>
 </html>
